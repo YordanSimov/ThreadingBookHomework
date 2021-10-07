@@ -1,0 +1,13 @@
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\bin\Debug\netcoreapp3.1\ThreadingBookHomework.exe
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\bin\Debug\netcoreapp3.1\ThreadingBookHomework.deps.json
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\bin\Debug\netcoreapp3.1\ThreadingBookHomework.runtimeconfig.json
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\bin\Debug\netcoreapp3.1\ThreadingBookHomework.runtimeconfig.dev.json
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\bin\Debug\netcoreapp3.1\ThreadingBookHomework.dll
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\bin\Debug\netcoreapp3.1\ThreadingBookHomework.pdb
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\obj\Debug\netcoreapp3.1\ThreadingBookHomework.csprojAssemblyReference.cache
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\obj\Debug\netcoreapp3.1\ThreadingBookHomework.AssemblyInfoInputs.cache
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\obj\Debug\netcoreapp3.1\ThreadingBookHomework.AssemblyInfo.cs
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\obj\Debug\netcoreapp3.1\ThreadingBookHomework.csproj.CoreCompileInputs.cache
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\obj\Debug\netcoreapp3.1\ThreadingBookHomework.dll
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\obj\Debug\netcoreapp3.1\ThreadingBookHomework.pdb
+E:\programirane gluposti\ThreadingBookHomework\ThreadingBookHomework\obj\Debug\netcoreapp3.1\ThreadingBookHomework.genruntimeconfig.cache
