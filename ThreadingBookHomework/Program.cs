@@ -74,7 +74,7 @@
 
         static void TopFiveMostCommonWords(string[] splitedBook)
         {
-            var dict = new Dictionary<string, int>();
+            var dict = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             foreach (var word in splitedBook)
             {
                 if (!dict.ContainsKey(word))
@@ -96,7 +96,7 @@
 
         static void TopFiveLeastCommonWords(string[] splitedBook)
         {
-            var dict = new Dictionary<string, int>();
+            var dict = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             foreach (var word in splitedBook)
             {
                 if (!dict.ContainsKey(word))
