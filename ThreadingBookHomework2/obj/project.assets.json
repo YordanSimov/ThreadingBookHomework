@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\programirane gluposti\\ThreadingBookHomework\\ThreadingBookHomework2\\ThreadingBookHomework2.csproj",
-      "projectName": "ThreadingBookHomework2",
-      "projectPath": "E:\\programirane gluposti\\ThreadingBookHomework\\ThreadingBookHomework2\\ThreadingBookHomework2.csproj",
+      "projectUniqueName": "E:\\programirane gluposti\\ThreadingBookHomework\\ThreadingBookHomework2\\ThreadingShopHomework.csproj",
+      "projectName": "ThreadingShopHomework",
+      "projectPath": "E:\\programirane gluposti\\ThreadingBookHomework\\ThreadingBookHomework2\\ThreadingShopHomework.csproj",
       "packagesPath": "C:\\Users\\Simov\\.nuget\\packages\\",
       "outputPath": "E:\\programirane gluposti\\ThreadingBookHomework\\ThreadingBookHomework2\\obj\\",
       "projectStyle": "PackageReference",
