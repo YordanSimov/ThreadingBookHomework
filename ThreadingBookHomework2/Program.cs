@@ -26,7 +26,7 @@
                 Monitor.Enter(objLock);
 
                 var quantityToBuy = rand.Next(1, 20);
-                var idOfItem = rand.Next(1, 5);
+                var idOfItem = rand.Next(1, 6);
 
                 var item = items.Where(x => x.Id == idOfItem).FirstOrDefault();
                 if (item.Quantity - quantityToBuy < 0)
@@ -55,7 +55,7 @@
                 Monitor.Enter(objLock);
                 var itemsToSupply = rand.Next(1, 20);
 
-                var idOfItem = rand.Next(1, 5);
+                var idOfItem = rand.Next(1, 6);
 
                 var item = items.Where(x => x.Id == idOfItem).FirstOrDefault();
                 item.Quantity += itemsToSupply;
