@@ -1,11 +1,21 @@
 ﻿namespace ThreadingBookHomework2
 {
     using System;
+    using System.Collections.Generic;
+    using System.Linq;
     using System.Threading;
+    using ThreadingShopHomework;
 
     class Program
     {
-        static int items = 1000;
+        static List<Item> items = new List<Item>()
+        {
+            new Item() {Name = "Book", Quantity = 200, Id = 1},
+            new Item() {Name = "Chair", Quantity = 200, Id = 2},
+            new Item() {Name = "Laptop", Quantity = 200, Id = 3},
+            new Item() {Name = "Computer", Quantity = 400, Id = 4},
+            new Item() {Name = "Phone", Quantity = 200, Id = 5},
+        };
         static object objLock = new object();
 
         static void Buyer()
@@ -14,12 +24,25 @@
             for (int i = 0; i < 90; i++)
             {
                 Monitor.Enter(objLock);
-                var boughtItems = rand.Next(1, 20);
-                items -= boughtItems;
-                Console.WriteLine($"{boughtItems} items bought.");
+
+                var quantityToBuy = rand.Next(1, 20);
+                var idOfItem = rand.Next(1, 5);
+
+                var item = items.Where(x => x.Id == idOfItem).FirstOrDefault();
+                if (item.Quantity - quantityToBuy < 0)
+                {
+                    var quantity = item.Quantity == 0 ? 0 : item.Quantity;
+                    Console.WriteLine($"Not enough quantity. We have {quantity} left from {item.Name}.");
+                    Console.WriteLine(new string('=', 60));
+                    continue;
+                }
+
+                item.Quantity -= quantityToBuy;
+
+                Console.WriteLine($"{quantityToBuy} items bought from {item.Name}.");
                 Console.WriteLine(new string('=', 60));
+
                 Thread.Sleep(3);
-                // items--;
                 Monitor.Exit(objLock);
             }
         }
@@ -30,11 +53,16 @@
             for (int i = 0; i < 5; i++)
             {
                 Monitor.Enter(objLock);
-                var addedItems = rand.Next(1, 20);
-                items += addedItems;
-                // items += 15;
-                Console.WriteLine($"{addedItems} items restocked.");
-                Console.WriteLine(new string('=',60));
+                var itemsToSupply = rand.Next(1, 20);
+
+                var idOfItem = rand.Next(1, 5);
+
+                var item = items.Where(x => x.Id == idOfItem).FirstOrDefault();
+                item.Quantity += itemsToSupply;
+
+                Console.WriteLine($"{itemsToSupply} items restocked from {item.Name}.");
+                Console.WriteLine(new string('=', 60));
+
                 Thread.Sleep(3);
                 Monitor.Exit(objLock);
             }
@@ -47,9 +75,14 @@
 
             threadBuyer.Start();
             threadSupplier.Start();
+
             threadBuyer.Join();
             threadSupplier.Join();
-            Console.WriteLine(items);
+
+            foreach (var item in items)
+            {
+                Console.WriteLine(item.Name + ": " + item.Quantity);
+            }
         }
     }
 }
