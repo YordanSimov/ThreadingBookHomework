@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadingBookHomework", "ThreadingBookHomework\ThreadingBookHomework.csproj", "{5159C55C-ABF2-4E05-965C-A334E3D5ECC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingShopHomework", "ThreadingBookHomework2\ThreadingShopHomework.csproj", "{F2DB915D-A9A9-4E47-9610-47FEE35284F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadingShopHomework", "ThreadingBookHomework2\ThreadingShopHomework.csproj", "{F2DB915D-A9A9-4E47-9610-47FEE35284F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstHomework", "FirstHomework", "{952D7DC5-031E-4FBD-8B67-8963069BDBA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecondHomework", "SecondHomework", "{042C0793-EF2F-46F6-84D2-D63727B62673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdHomework", "ThirdHomework", "{8F5E3368-0FAC-4834-9DC3-F357818436F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scraper", "Scraper\Scraper.csproj", "{D848E19E-46BC-411D-8E1F-F41247DB8DCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{F2DB915D-A9A9-4E47-9610-47FEE35284F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2DB915D-A9A9-4E47-9610-47FEE35284F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2DB915D-A9A9-4E47-9610-47FEE35284F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D848E19E-46BC-411D-8E1F-F41247DB8DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D848E19E-46BC-411D-8E1F-F41247DB8DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D848E19E-46BC-411D-8E1F-F41247DB8DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D848E19E-46BC-411D-8E1F-F41247DB8DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5159C55C-ABF2-4E05-965C-A334E3D5ECC3} = {952D7DC5-031E-4FBD-8B67-8963069BDBA4}
 		{F2DB915D-A9A9-4E47-9610-47FEE35284F8} = {042C0793-EF2F-46F6-84D2-D63727B62673}
+		{D848E19E-46BC-411D-8E1F-F41247DB8DCD} = {8F5E3368-0FAC-4834-9DC3-F357818436F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {048005CE-34C3-4DE0-A804-01CDC5E2B688}
