@@ -1,0 +1,13 @@
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\bin\Debug\netcoreapp3.1\BarSimulator.exe
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\bin\Debug\netcoreapp3.1\BarSimulator.deps.json
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\bin\Debug\netcoreapp3.1\BarSimulator.runtimeconfig.json
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\bin\Debug\netcoreapp3.1\BarSimulator.runtimeconfig.dev.json
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\bin\Debug\netcoreapp3.1\BarSimulator.dll
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\bin\Debug\netcoreapp3.1\BarSimulator.pdb
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\obj\Debug\netcoreapp3.1\BarSimulator.csprojAssemblyReference.cache
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\obj\Debug\netcoreapp3.1\BarSimulator.AssemblyInfoInputs.cache
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\obj\Debug\netcoreapp3.1\BarSimulator.AssemblyInfo.cs
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\obj\Debug\netcoreapp3.1\BarSimulator.csproj.CoreCompileInputs.cache
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\obj\Debug\netcoreapp3.1\BarSimulator.dll
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\obj\Debug\netcoreapp3.1\BarSimulator.pdb
+E:\programirane gluposti\ThreadingBookHomework\BarSimulator\obj\Debug\netcoreapp3.1\BarSimulator.genruntimeconfig.cache
